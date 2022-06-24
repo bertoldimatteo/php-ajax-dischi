@@ -14,15 +14,22 @@ include './server/database.php';
     <title>php-dischi</title>
 </head>
 <body>
-    <div class="container">
-        <?php foreach($database as $music) {?>
-            <div class="card">
-                <img class="poster-album" src="<?php echo $music['poster']; ?>" alt="">
-                <h2><?php echo $music['title']; ?></h2>
-                <p><?php echo $music['author']; ?></p>
-                <span><?php echo $music['year']?></span>
-            </div>      
-        <?php } ?>
-    </div>
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <?php foreach($database as $music) {?>
+                <div class="card">
+                    <img class="poster-album" src="<?php echo $music['poster']; ?>" alt="">
+                    <h2><?php echo $music['title']; ?></h2>
+                    <p><?php echo $music['author']; ?></p>
+                    <span><?php echo $music['year']?></span>
+                </div>      
+            <?php } ?>
+        </div>
+    </main>
 </body>
 </html>

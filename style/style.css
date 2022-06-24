@@ -7,6 +7,11 @@ h2 {
     color: #fff;
     margin-bottom: 20px;
 }
+header {
+    background-color: #2e3a46;
+    height: 80px;
+    margin-bottom: 20px;
+}
 body {
     background-color: #1d2d3c;
 }
